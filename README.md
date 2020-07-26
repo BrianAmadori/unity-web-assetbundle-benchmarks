@@ -1,5 +1,9 @@
 # unity-assetbundle-benchmarks
 
+This tests aims to benchmark asset bundle loading methods under Unity's wasm target.
+
+The motivation is to figure out what the async asset bundle methods do under the hood. It's not really clear what async methods actually do in wasm non-multithreaded builds.
+
 LoadAsset test:
 ```
 LoadAsset() test...
